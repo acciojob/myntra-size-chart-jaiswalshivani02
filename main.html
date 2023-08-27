@@ -1,16 +1,80 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    th.size-column {
+      text-align: left;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Shoulder (cm)</th>
+        <th>Chest (cm)</th>
+        <th>Length (cm)</th>
+        <th>Sleeve (cm)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="size-column">S</td>
+        <td>42</td>
+        <td>98</td>
+        <td>68</td>
+        <td>62</td>
+      </tr>
+      <tr>
+        <td class="size-column">M</td>
+        <td>44</td>
+        <td>102</td>
+        <td>70</td>
+        <td>63</td>
+      </tr>
+      <tr>
+        <td class="size-column">L</td>
+        <td>46</td>
+        <td>106</td>
+        <td>72</td>
+        <td>64</td>
+      </tr>
+      <tr>
+        <td class="size-column">XL</td>
+        <td>48</td>
+        <td>110</td>
+        <td>74</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td class="size-column">XXL</td>
+        <td>50</td>
+        <td>114</td>
+        <td>76</td>
+        <td>66</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
-
 </html>
